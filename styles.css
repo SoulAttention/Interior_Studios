@@ -1,8 +1,13 @@
 body {
+    width: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    
-    
+    flex:1 1 auto;
+    gap:20px;
+    margin:0;
+    background-color: black;
+    color:slategrey;
     
 }
 
@@ -10,13 +15,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:20px;
+    margin:0px;
+    padding:0;
+    border:14px slategrey ridge;
+    
 }
 
 
 .logo {
     height: auto;
-    width: 250px;
+    width: 50%;
+    margin: 10px;
+    margin-left: 10px;
+    display: flex;
+    padding:0;
+    border:0;
 }
 
 .left-header{
@@ -34,6 +47,8 @@ body {
 }
 
 .main-body{
+    height:100%;
+    width:auto;
     display: flex;
     justify-content: space-between;
     
