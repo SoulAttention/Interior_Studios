@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+}
+
+
+.logo {
+    height: auto;
+    width: 250px;
+}
+
+.left-header{
+    
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin-right: 40px;
+    padding:8px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    
+}
