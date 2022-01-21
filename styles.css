@@ -22,13 +22,16 @@ a:visited {
     font-family:'Times New Roman', Times, serif;
 }
 
+a:hover {
+    color:rgb(67, 202, 219);
+}
 
 .header {
     display: flex;
     justify-content:space-between;
     align-items: center;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     border:14px slategrey ridge;
     
 }
