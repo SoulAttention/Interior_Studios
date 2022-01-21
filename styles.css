@@ -3,20 +3,32 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    flex:1 1 auto;
-    gap:20px;
+    flex: 1 1 auto;
+    gap: 0px;
     margin:0;
     background-color: black;
     color:slategrey;
+    font-family:'Times New Roman', Times, serif;
     
 }
 
+a:link {
+    color:slategrey;
+    font-family:'Times New Roman', Times, serif;
+}
+
+a:visited {
+    color:slategrey;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    margin:0px;
-    padding:0;
+    margin: 0px;
+    padding: 0px;
     border:14px slategrey ridge;
     
 }
@@ -24,26 +36,32 @@ body {
 
 .logo {
     height: auto;
-    width: 50%;
-    margin: 10px;
-    margin-left: 10px;
+    width: 100%;
+    min-width: 200px;
+    margin: 0px;
     display: flex;
     padding:0;
     border:0;
 }
 
 .left-header{
+    width:350px;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+
     
 }
 
 .right-header{
     display: flex;
     align-items: center;
-    gap:40px;
-    margin-right: 40px;
-    padding:8px;
+    gap: 40px;
+    margin-right: 30px;
+    padding:10px;
     font-family:'Times New Roman', Times, serif;
-    font-size: medium;
+    font-size: 20px;
 }
 
 .main-body{
@@ -51,5 +69,18 @@ body {
     width:auto;
     display: flex;
     justify-content: space-between;
+    margin: 0px;
+    border:14px slategrey ridge;
+    padding: 20px;
     
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    border:14px slategrey ridge;
+
 }
