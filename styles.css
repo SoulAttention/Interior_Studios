@@ -15,6 +15,7 @@ body {
 a:link {
     color:slategrey;
     font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 a:visited {
@@ -65,17 +66,27 @@ a:hover {
     padding:10px;
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
+    
 }
 
 .main-body{
     height:100%;
     width:auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0px;
     border:14px slategrey ridge;
     padding: 20px;
     
+}
+
+.secondary-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: auto;
+    height: 100%;
 }
 
 .footer{
