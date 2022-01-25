@@ -6,7 +6,6 @@ body {
     flex: 1 1 auto;
     gap: 0px;
     margin:0;
-    background-color: black;
     color:slategrey;
     font-family:'Times New Roman', Times, serif;
     
@@ -16,6 +15,7 @@ a:link {
     color:slategrey;
     font-family:'Times New Roman', Times, serif;
     text-decoration: none;
+    text-decoration-color: none;
 }
 
 a:visited {
@@ -24,7 +24,8 @@ a:visited {
 }
 
 a:hover {
-    color:rgb(67, 202, 219);
+    text-decoration-color: none;
+    text-decoration-line: underline;
 }
 
 .header {
@@ -33,7 +34,8 @@ a:hover {
     align-items: center;
     margin: 0px;
     padding: 10px;
-    border:14px slategrey ridge;
+    border: 0px;
+    background-color: darkslategrey;
     
 }
 
@@ -76,9 +78,9 @@ a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0px;
-    border:14px slategrey ridge;
+    border: 0px;
     padding: 20px;
-    
+    background-color: rgb(37, 37, 37);
 }
 
 .secondary-body {
@@ -95,6 +97,7 @@ a:hover {
     align-items: center;
     padding: 10px;
     margin: 0px;
-    border:14px slategrey ridge;
+    border: 0px;
+    background-color: darkslategrey;
 
 }
