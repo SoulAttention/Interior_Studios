@@ -5,10 +5,11 @@ body {
     flex-direction: column;
     flex: 1 1 auto;
     gap: 0px;
-    margin:0;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
     color:slategrey;
     font-family:'Times New Roman', Times, serif;
-    
 }
 
 a:link {
@@ -28,17 +29,22 @@ a:hover {
     text-decoration-line: underline;
 }
 
+.header, .logo, .left-header, .left-main-body, .right-header, .main-body, .kitchen-img, .main-body-text, .footer, .testimonials-header, .testimonials-text {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: slategrey;
+}
+
 .header {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 0px;
     padding: 10px;
-    border: 0px;
     background-color: darkslategrey;
     width: auto;
     height: 120px;
-    
 }
 
 
@@ -46,20 +52,13 @@ a:hover {
     height: auto;
     width: 100%;
     min-width: 200px;
-    margin: 0px;
     display: flex;
-    padding:0;
-    border:0;
 }
 
 .left-header{
     width:350px;
     height: auto;
-    margin: 0;
     padding: 40px;
-    border: 0;
-
-    
 }
 
 .right-header{
@@ -68,9 +67,7 @@ a:hover {
     gap: 40px;
     margin-right: 40px;
     padding:10px;
-    font-family:'Times New Roman', Times, serif;
     font-size: 25px;
-    
 }
 
 .main-body{
@@ -78,8 +75,6 @@ a:hover {
     width: auto;
     display: flex;
     align-items: flex-start;
-    margin: 0px;
-    border: 0px;
     padding: 20px;
     padding-top: 50px;
     background-color: rgb(37, 37, 37);
@@ -89,18 +84,13 @@ a:hover {
 
 .kitchen-img {
     display:flex;
-    margin-left: 0px;
-    padding: 0px;
-    border:0;
     height: auto;
     width: 100%;
-
 }
 
 .left-main-body {
     display:flex;
     padding-left: 30px;
-    border:0;
     width: 1066px;
     height: auto;
 }
@@ -110,14 +100,10 @@ a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
     font-size:x-large;
     width: 400px;
     height: auto;
     gap: 70px;
-
 }
 
 
@@ -126,8 +112,5 @@ a:hover {
     justify-content: flex-end;
     align-items: center;
     padding: 10px;
-    margin: 0px;
-    border: 0px;
     background-color: darkslategrey;
-
 }
