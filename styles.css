@@ -22,7 +22,7 @@ a:hover {
     text-decoration-line: underline;
 }
 
-a:link, a:hover, a:visited, .header, .logo, .left-header, .left-main-body, .right-header, .main-body, .kitchen-img, .main-body-text, .footer, .testimonials-header, .testimonials-text, .testimonials-body {
+.testimonials-links, a:link, a:hover, a:visited, .header, .logo, .left-header, .left-main-body, .right-header, .main-body, .kitchen-img, .main-body-text, .footer, .testimonials-header, .testimonials-text, .testimonials-body {
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -111,9 +111,27 @@ a:link, a:hover, a:visited, .header, .logo, .left-header, .left-main-body, .righ
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .testimonials-body {
-    background-color: rgb(48, 41, 41);
+    background-color: rgb(51, 47, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.testimonials-text, .testimonials-reallinks {
+    display:flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.testimonials-links {
+    display: flex;
+    flex-direction: column;
 }
