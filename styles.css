@@ -22,7 +22,7 @@ a:hover {
     text-decoration-line: underline;
 }
 
-.testimonials-links, a:link, a:hover, a:visited, .header, .logo, .left-header, .left-main-body, .right-header, .main-body, .kitchen-img, .main-body-text, .footer, .testimonials-header, .testimonials-text, .testimonials-body {
+.contact-main-body, .mid-header, .testimonials-links, a:link, a:hover, a:visited, .header, .logo, .left-header, .left-main-body, .right-header, .main-body, .kitchen-img, .main-body-text, .footer, .testimonials-header, .testimonials-text, .testimonials-body {
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -35,10 +35,17 @@ a:hover {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 10px;
     background-color: darkslategrey;
-    width: auto;
-    height: 120px;
+    width: 100%;
+    height: auto;
+    min-width: fit-content;
+}
+
+.mid-header {
+    display: flex;
+    min-width: 100px;
+    height: auto;
+    padding-left: 20px;
 }
 
 .logo {
@@ -51,38 +58,51 @@ a:hover {
 .left-header{
     width:350px;
     height: auto;
-    padding: 40px;
+    padding-left: 50px;
 }
 
 .right-header{
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-right: 40px;
-    padding:10px;
     font-size: 25px;
+    padding-right: 70px;
 }
 
 .main-body{
-    height: 750px;
-    width: auto;
+    height: auto;
+    width: 100%;
     display: flex;
     align-items: flex-start;
-    padding: 20px;
+    padding-bottom: 50px;
     padding-top: 50px;
+    padding-left: 50px;
     background-color: rgb(37, 37, 37);
     gap: 100px;  
+    min-width: 850px;
+}
+
+.contact-main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.email {
+    font-size: xx-large;
 }
 
 .kitchen-img {
     display:flex;
     height: auto;
     width: 100%;
+    min-width: 400px;
 }
 
 .left-main-body {
     display:flex;
-    padding-left: 30px;
     width: 1066px;
     height: auto;
 }
@@ -96,6 +116,7 @@ a:hover {
     width: 400px;
     height: auto;
     gap: 70px;
+    min-width: 300px;
 }
 
 
