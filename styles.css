@@ -41,6 +41,7 @@ a:hover {
     width: 100%;
     height: auto;
     min-width: fit-content;
+    margin-top: 20px;
 }
 
 .mid-header {
@@ -118,13 +119,6 @@ a:hover {
     min-width: 300px;
 }
 
-.BeforeAndAfterBody {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .footer{
     display: flex;
@@ -163,3 +157,32 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
+
+
+.BeforeAndAfterBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    
+    
+}
+
+.kitchen8before2, .kitchen9 {
+    width: 850px;
+    height: 750px;
+}
+
+.FirstBefore {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.FirstAfter {
+    display: flex;
+    flex-direction: column;
+    
+}
+
