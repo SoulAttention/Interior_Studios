@@ -23,8 +23,8 @@ a:hover {
 }
 
 .contact-main-body, .mid-header, .testimonials-links, a:link, a:hover, a:visited, .header, .logo, .left-header, .left-main-body, .right-header, 
-.main-body, .kitchen7, .main-body-text, .footer, .testimonials-header, .testimonials-text, .testimonials-body, .BeforeAndAfterBody, .FirstBefore 
-.kitchen8before2, .FirstAfter, .kitchen9 {
+.main-body, .kitchen8, .main-body-text, .footer, .testimonials-header, .testimonials-text, .testimonials-body, .BeforeAndAfterBody, .FirstBefore, 
+.FirstAfter, .kitchen9, .kitchen8before, .kitchen8before2, .kitchen7 {
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -94,7 +94,7 @@ a:hover {
     font-size: xx-large;
 }
 
-.kitchen7 {
+.kitchen8 {
     display:flex;
     height: auto;
     width: 100%;
@@ -161,28 +161,20 @@ a:hover {
 
 .BeforeAndAfterBody {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    margin: 20px;
     gap: 20px;
     
     
 }
 
-.kitchen8before2, .kitchen9 {
-    width: 850px;
+.kitchen8before2, .kitchen9, .kitchen8before, .kitchen7 {
+    width: 830px;
     height: 750px;
-}
-
-.FirstBefore {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.FirstAfter {
-    display: flex;
-    flex-direction: column;
+    border:rgb(189, 186, 186);
+    border-width: 15px;
+    border-style: groove;
     
 }
 
