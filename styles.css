@@ -99,6 +99,9 @@ a:hover {
     height: auto;
     width: 100%;
     min-width: 400px;
+    border:rgb(85, 83, 83);
+    border-width: 10px;
+    border-style: groove;
 }
 
 .left-main-body {
@@ -162,18 +165,20 @@ a:hover {
 .BeforeAndAfterBody {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 40px;
     
     
 }
 
 .kitchen8before2, .kitchen9, .kitchen8before, .kitchen7 {
-    width: 830px;
+    width: 860px;
     height: 750px;
-    border:rgb(189, 186, 186);
-    border-width: 15px;
+    border:rgb(85, 83, 83);
+    border-width: 10px;
     border-style: groove;
     
 }
