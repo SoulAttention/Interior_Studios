@@ -82,11 +82,13 @@ a:hover {
     
 }
 
-.contact-main-body {
+
+.contact-main-body, .testimonials-main-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    min-height: 79vh;
 
 }
 
