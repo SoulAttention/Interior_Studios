@@ -75,15 +75,18 @@ a:hover {
 .BBB-logo {
     display: flex;
     justify-content: flex-end;
-    width: 200px;
+    width: 250px;
     height: auto;
+    border-color:rgb(138, 133, 133);
+    border-width: 5px;
+    border-style: solid;
 }
 
 .Cert-BBB {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
 }
 .main-body{
     
@@ -134,7 +137,7 @@ a:hover {
     align-items: flex-start;
     max-width: 700px;
     height: auto;
-    gap: 50px;
+    gap: 40px;
     min-width: 300px;
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif;
