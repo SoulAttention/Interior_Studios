@@ -72,6 +72,13 @@ a:hover {
     padding-right: 70px;
 }
 
+.BBB-logo {
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    height: auto;
+}
+
 .main-body{
     
     display: flex;
